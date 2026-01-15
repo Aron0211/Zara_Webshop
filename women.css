@@ -134,10 +134,89 @@ section a {
 }
 
 
+
+.section{
+    width: 250px;
+    background-color: #e9ecef;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
 .commercial{
     background-image: url(kepek/commercial.jpg);
     background-size: cover;
     padding: 20px 20px;
+}
+
+.commercial2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffff;
+    background-color: #dae7d8;
+}
+.commercial2 img{
+
+    background-size: cover;
+    max-width: 100%;
+
+}
+
+
+.commercial3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffff;
+}
+.fanclub{
+    background-color: #ffffff;
+    padding: 0 0 0 0;
+    margin: 6 0  10;
+    text-align: center;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+.fanclub h2{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.fanclub img{
+    max-width: 1%;
+    height: 600px;
+
+}
+
+.commercial3 img{
+
+    background-size: cover;
+    max-width: 100%;
+
+}
+
+.commercial4{
+    background-image: url(kepek/commercial4.jpg);
+    background-size: cover;
+
+}
+
+.commercial4 image{
+    max-width: 20%;
+
+}
+
+.szazalek{
+    max-width: 100%;
+
+}
+
+div{
+    margin: 20px;
+}
+
+.sale{
+    max-width: 50%;
 }
 
 
@@ -159,7 +238,7 @@ p {
 }
 
 .price {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .old {
